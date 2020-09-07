@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>layout by html and css</title>
+</head>
+<style>
+	.container{
+	width: 1000px;
+	min-height:1210px;
+	border: 1px solid black;
+	}
+	body{
+	font-family: arial;
+	padding:10px;
+	background-color: #FFFFFF;
+	color: black;
+	}
+	.header{
+	overflow:auto;
+	background-color: #CCCCCC;
+	width: 1000px;
+	height: 90px;
+	border-bottom: 1px solid black;
+	
+	}
+	.logo img{
+	position: absolute;
+
+	margin-top: 33px;
+	margin-left: 10px;
+	}
+	.logo1 img{
+	position: absolute;
+	margin-top: 33px;
+	margin-left: 60px;
+	}
+	.logo3 img{
+	position: absolute;
+	margin-top: 33px;
+	margin-left: 160px;
+	}
+	.logo4 img{
+	position: absolute;
+	margin-top: 33px;
+	margin-left: 110px;
+	}
+	.cocacola img{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	}
+	.search{
+
+	}
+	.search .search_text{
+	width: 450px;
+	height: 25px;
+	margin-top:-10px;
+	margin-left: 120px;
+
+	}
+	.search .search_Text{
+	border-radius: 20px 20px 20px 20px;
+	width: 200px;
+	height: 25px;
+	margin-top: -25px;
+	margin-left: 380px;
+	}
+	.topnav{
+	height: 100px;
+	width: 1000;
+	border-bottom: 1px solid black;
+	}
+	.menu ul {
+ display: flex;
+ list-style: none;
+}
+
+.menu li {
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 10px;
+ padding: 10px 25px;
+ border: 1px solid black;
+ cursor: pointer;
+ position: relative;
+ left: 450px;
+ top: -10px;
+ background-color:#FFFFFF ;
+ color: #180000;
+
+}
+A{text-decoration: none;}
+
+.menu li:hover{
+ background-color: #95BCF3;
+}
+.text {
+ font-family: cursive;
+ font-size: 18px;
+ position: absolute;
+ top: 180px;
+ left:530px;
+}
+.main{
+	width: 1000px;
+	height: 650px;
+	border-bottom: 1px solid black;
+}
+	
+.h2{
+	margin-left: 15px;
+}
+.name {
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 20px;
+ color: black;
+}
+.box{
+	background-color:#EEEEEE;
+	width: 420px;
+	height: 250px;
+	padding: 20px;
+	margin-top: -610px;
+	margin-left: 20px;
+	}
+
+.box1{
+	background-color:#EEEEEE;
+	width: 420px;
+	height: 250px;
+	padding: 20px;
+	margin-top: -290px;
+	margin-left: 520px;
+	}
+	.box2{
+	background-color:#EEEEEE;
+	width: 420px;
+	height: 250px;
+	padding: 20px;
+	margin-top: 15px;
+	margin-left: 20px;
+	}
+	.box3{
+	background-color:#EEEEEE;
+	width: 420px;
+	height: 250px;
+	padding: 20px;
+	margin-top: -290px;
+	margin-left: 520px;
+	}
+	.p {
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 20px;
+ left:130px;
+ }
+
+	.content {
+ font-size: 20px;
+ position: relative;
+ width: 300px;
+ top: 0px;
+ left: 130px;
+ }
+ .coca{
+ font-family: cursive;
+ font-weight: bold;
+ font-size: 20px;
+ color:#95BCF3 ;
+}
+/*.bottom{
+	width:1000px;
+	height: 300px;
+	border-bottom: 1px solid black;
+	margin-top: 15px;
+}*/
+.bottom-left{
+ font-family: cursive;
+ width: 120px;
+ height: 200px;
+ color:black;
+ font-size: 16px;
+ padding: 0px 0px 70px 20px;
+ border-right: 1px solid black;
+ line-height: 24px;
+}
+.bottom_middle {
+ font-family: cursive;
+ width: 250px;
+ height: 250px;
+ color: black;
+ font-size: 16px;
+ padding: 10px 10px 10px 10px;
+ margin-left: 210px;
+ margin-top: -270px;
+ line-height: 20px;
+ border-right: 1px solid black;
+}
+.text1{
+	position: relative;
+ left: 20px;
+ margin-top: 0px;
+}
+.image1 img{
+	height: 200px;
+	width:200px;
+	left: 550px;
+	margin-top: -40px;
+}
+.bottom_right{
+	width: 250px;
+	height: 250px;
+	padding:10px 10px 10px 10px;
+	margin-top: -210px;
+	margin-left: 530px;
+}
+.contract{
+ font-family: cursive;
+ font-size: 18px;
+ width: 200px;
+ height: 200px;
+ color: black;
+ margin-left:820px;
+ margin-top: -340px; 
+}
+.footer{
+	width:1000px;
+	height: 25px;
+	background-color:#CCCCCC;
+	margin-top: 100px; 
+	border-top: 1px solid black;
+}
+
+
+
+
+</style>
+<body>
+
+	<div class="container">
+	<div class="header">
+	<div class="logo">
+	<img src="logo2.jpg" width="30px" height="30px" >
+	</div>
+	<div class="logo1">
+	<img src="logo1.jpg" width="30px" height="30px" >
+	</div>
+	<div class="logo3">
+	<img src="logo3.jpg" width="30px" height="30px" >
+	</div>
+	<div class="logo4">
+	<img src="x.png" width="30px" height="30px" >
+	</div>
+
+	<h5 style="text-align: center;"> International ipsum loream</h5>
+	<div class="search">
+	<div class="search_text">
+	<input type="text" name="search_text" class="search_text" placeholder = "www.google.com">
+	</div>
+	</div>
+	<div class="search">
+	<div class="search_Text">
+	<input type="text" name="search_Text" class="search_Text" placeholder="www.facebook.com">
+	</div>
+	</div>
+	</div>
+	<div class="topnav">
+	<div class="cocacola">
+	<img src="coco.jpg" width="80px" height="75px" >
+	</div>
+	<div class="menu">
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About Us</a></li>
+ <li><a href="#">Services</a></li>
+ <li><a href="#">Who We Work With</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+
+	</div>
+	<div class="text">
+ Calle de tu opino 20, 280290, Madrid td.91 756
+ </div>
+	</div>
+	<div class="main"> 
+	<h2 class="h2">who we work with</h2>
+	</div>
+	<div class="box">
+	<div class="cocacola">
+	<img src="coco.jpg" width="85px" height="85px" >
+	</div>
+	<div class="content">
+	<div class="coca">
+	CocaCola
+	</div>
+	<div class="p">
+ <p>Steve Jobs - CEO</p>
+ </div>
+ <hr size="2px" color="black">
+	<p>
+ Lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+ sit amet consectetur adipisicing elit. Est temporibus labore sit voluptatibus.
+ 
+ </p>
+ </div>
+	
+	</div>
+	<div class="box1">
+	<div class="cocacola">
+	<img src="coco.jpg" width="85px" height="85px" >
+	</div>
+	<div class="content">
+	<div class="coca">
+	CocaCola
+	</div>
+	<div class="p">
+ <p>Steve Jobs - CEO</p>
+ </div>
+ <hr size="2px" color="black">
+	<p>
+ Lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+ sit amet consectetur adipisicing elit. Est temporibus labore sit voluptatibus.
+ 
+ </p>
+ </div>
+	
+	</div>
+	<div class="box2">
+	<div class="cocacola">
+	<img src="coco.jpg" width="85px" height="85px" >
+	</div>
+	<div class="content">
+	<div class="coca">
+	CocaCola
+	</div>
+	<div class="p">
+ <p>Steve Jobs - CEO</p>
+ </div>
+ <hr size="2px" color="black">
+	<p>
+ Lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+ sit amet consectetur adipisicing elit. Est temporibus labore sit voluptatibus.
+ 
+ </p>
+ </div>
+	
+	</div>
+	<div class="box3">
+	<div class="cocacola">
+	<img src="coco.jpg" width="85px" height="85px" >
+	</div>
+	<div class="content">
+	<div class="coca">
+	CocaCola
+	</div>
+	<div class="p">
+ <p>Steve Jobs - CEO</p>
+ </div>
+ <hr size="2px" color="black">
+	<p>
+ Lorem ipsum dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+ sit amet consectetur adipisicing elit. Est temporibus labore sit voluptatibus.
+ 
+ </p>
+ </div>
+	
+	</div>
+	<div class="bottom-left">
+ <h2><br>Site Map</h2>
+ <ul>
+ <li><a href="#">Home</a></li>
+ <li><a href="#">About Us</a></li>
+ <li><a href="#">Services</a></li>
+ <li><a href="#">Who We Work</a></li>
+ <li><a href="#">Contact</a></li>
+ </ul>
+ </div>
+ 
+ <div class="bottom_middle">
+ <div class="text1">
+ <h2>Client Testimonials</h2>
+ <p>
+ Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+ Asperiores tempore et sit, nihil nemo vero ducimus, nostrum
+ itaque doloribus dolorem modi dolore enim.<br><br>
+ Steve Simon,<br> CEO Windoor Foods
+ </p>
+ </div>
+ </div>
+ <div class="bottom_right">
+ <div class="image1">
+ <img src="map.jpg">
+ </div>
+</div>
+
+ <div class="contract" >
+ <h3>Where are we?</h3><br>
+ Pharping, Kathmandu, Nepal<br><br>
+ P.O. Box: 212<br><br>
+ +977 9708899810
+ </div>
+ 
+ <div class="footer">
+ 
+ </div>
+	</div>
+
+	
+
+	
+</body>
+</html>
